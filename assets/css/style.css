@@ -222,23 +222,23 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 #run-buddy {
-  background-image: url("./images/notebook-writing.webp");
+  background-image: url("../images/notebook-writing.webp");
 }
 
 #led-wall {
-  background-image: url("./images/digital-marketing-meeting.jpg");
+  background-image: url("../images/digital-marketing-meeting.jpg");
 }
 
 #react-calc {
-  background-image: url("./images/img-placeholder.webp");
+  background-image: url("../images/img-placeholder.webp");
 }
 
 #pastel-puzzles {
-  background-image: url("./images/img-placeholder.webp");
+  background-image: url("../images/img-placeholder.webp");
 }
 
 #surf-report {
-  background-image: url("./images/img-placeholder.webp");
+  background-image: url("../images/img-placeholder.webp");
 }
 
 /* media queries */
@@ -278,3 +278,9 @@ main {
 }
 
 /* TODO: add media query for a max-width of 768px */
+@media screen and (max-width: 768px) {
+  .flex-item:first-child {
+    min-height: 150px;
+    max-height: 150px;
+  }
+}
